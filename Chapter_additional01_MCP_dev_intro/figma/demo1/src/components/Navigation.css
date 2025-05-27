@@ -1,0 +1,68 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 336px 24px 0;
+    height: 40px;
+    width: 100%;
+}
+
+.segmented-control {
+    display: flex;
+    align-items: center;
+}
+
+.segmented-control-container {
+    display: flex;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.segment.active {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.segment span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 0 16px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #333333;
+}
