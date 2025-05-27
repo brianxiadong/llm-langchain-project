@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "weather-server": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/Volumes/mydata/codes/github/llm-langchain-project/Chapter_additional01_MCP_dev_intro/weather",
+                "run",
+                "weather.py"
+            ],
+            "env": {}
+        }
+    }
+}
